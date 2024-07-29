@@ -1,20 +1,9 @@
 {
   "version": 2,
+  "public": "public",
   "builds": [
     {
       "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "img/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "app.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "style.css",
       "use": "@vercel/static"
     }
   ],
